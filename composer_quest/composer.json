@@ -1,0 +1,17 @@
+{
+    "name": "wilder/composer_quest",
+    "description": "Composer_quest_1",
+    "autoload": {
+        "psr-4": {
+            "Wilder\\ComposerQuest\\App\\": "src/"
+            
+        }
+    },
+    "authors": [
+        {
+            "name": "Martin Lerude",
+            "email": "martin.lerude@gmail.com"
+        }
+    ],
+    "require": {}
+}
