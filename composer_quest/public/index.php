@@ -1,15 +1,8 @@
 <?php
 
-use Hello as GlobalHello;
+use App\Wcs\Hello;
 
-class Hello
-{
+require_once realpath('../vendor/autoload.php');
 
-    public $talk = "Hello World !";
-
-    public function getTalk()
-    {
-        return $this->talk;
-    }
-}
-$helloWorld = new Hello();
+$hello = new Hello;
+echo $hello->talk();
